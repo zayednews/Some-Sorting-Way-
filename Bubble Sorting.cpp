@@ -34,8 +34,10 @@ void bubble_sort(int n)
         f=1;
     }
     }
-    if(f==0)
-    break;
+    if(f==0){
+     cout<<"The array is already sorted"<<endl;
+     break;
+    }
 }
 cout<<"The sorting array is:";
 for(int zn=0;zn<n;zn++)
